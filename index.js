@@ -47,25 +47,25 @@ function startScreen() {
       console.log("You entered: " + result.option);
 
       switch (result.option) {
-        case "Add department":
+        case "Add a department":
           addDepartment();
           break;
-        case "Add role":
+        case "Add a role":
           addRole();
           break;
-        case "Add employee":
+        case "Add an employee":
           addEmployee();
           break;
-        case "View departments":
+        case "View all departments":
           viewDepartment();
           break;
-        case "View roles":
+        case "View all roles":
           viewRoles();
           break;
-        case "View employees":
+        case "View all employees":
           viewEmployees();
           break;
-        case "Update employee role":
+        case "Update an employee role":
           updateEmployee();
           break;
         default:
